@@ -51,9 +51,17 @@ namespace Assignment_OOP04
             #endregion
 
             #region Q3) Define a class Complex Number that represents a complex number with real and imaginary parts.
-       //////Note: Overload the +, - operator to add and subtract two complex numbers.
-
-
+            //////Note: Overload the +, - operator to add and subtract two complex numbers.
+            Console.WriteLine("Answer Q03");
+            Complex complex01 = new Complex() { Real = 5, Img = 2};
+            Complex complex02=new Complex() { Real= 6, Img = 4};
+            Complex complex03 = default;
+            Complex complex04 = default;
+            complex03 = complex02 + complex01;
+            complex04=complex02 - complex01;
+            Console.WriteLine("Adding:" + complex03);
+            Console.WriteLine("Substract:" + complex04);
+            Console.WriteLine("====================");
             #endregion
             #endregion
 
